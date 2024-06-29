@@ -8,7 +8,7 @@ export interface InputFieldProps {
   placeholder?: string;
   name?: string;
   type?: string;
-  // id?: string;
+  id?: string;
 }
 
 export default function InputField({ label, id, ...rest }: InputFieldProps) {
