@@ -14,7 +14,7 @@ export interface StatusLableProps {
   disabled?: false;
 }
 
-export default function StstusLabel({
+export default function StatusLabel({
   children,
   status,
   disabled,
