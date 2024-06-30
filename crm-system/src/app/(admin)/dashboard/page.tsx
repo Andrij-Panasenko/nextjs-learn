@@ -1,11 +1,11 @@
 import React from 'react';
 import Sidebar from '@/app/components/sidebar';
 
-export interface LayoutProps {
+export interface PageProps {
   children: React.ReactNode;
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function Page({ children }: PageProps) {
   return (
     <>
       <Sidebar />
