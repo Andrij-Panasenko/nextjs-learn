@@ -1,5 +1,5 @@
-import StatCard from './stat-card.jsx';
+import StatCard from "./stat-card";
 
-export * from './stat-card.jsx';
+export * from './stat-card'
 
 export default StatCard;
