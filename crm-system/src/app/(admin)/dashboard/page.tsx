@@ -1,15 +1,14 @@
 import React from 'react';
 import Sidebar from '@/app/components/sidebar';
+import MagicButton from '@/app/components/magic-button';
 
-export interface PageProps {
-  children: React.ReactNode;
-}
+export interface PageProps {}
 
-export default function Page({ children }: PageProps) {
+export default function Page({}: PageProps) {
   return (
     <>
       <Sidebar />
-      <div className="ml-60">{children}</div>
+      <MagicButton/>
     </>
   );
 }
