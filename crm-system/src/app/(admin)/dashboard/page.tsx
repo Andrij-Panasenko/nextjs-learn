@@ -1,5 +1,4 @@
 import React from 'react';
-import Sidebar from '@/app/components/sidebar';
 import Header from '@/app/components/header';
 
 export interface PageProps {}
