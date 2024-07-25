@@ -3,12 +3,9 @@
 import React from 'react';
 import { Field } from 'formik';
 
-export interface InputFieldProps {
+export interface InputFieldProps
+  extends React.InputHTMLAttributes<HTMLInputElement> {
   label?: string;
-  placeholder?: string;
-  name?: string;
-  type?: string;
-  id?: string;
 }
 
 export default function InputField({ label, id, ...rest }: InputFieldProps) {
@@ -22,7 +19,7 @@ export default function InputField({ label, id, ...rest }: InputFieldProps) {
       <Field
         {...rest}
         id={id}
-        className="p-3 h-11 text-sm rounded border border-gray-300 shadow "
+        className="p-3 h-11 text-sm rounded border border-gray-300 shadow"
       />
     </div>
   );
